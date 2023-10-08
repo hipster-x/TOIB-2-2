@@ -1,5 +1,5 @@
 # TOIB-2
-Отчет по зданию №2 "Идентификация и аутентификация"
+# Отчет по зданию №2 "Идентификация и аутентификация"
 Задача 
 1. Создать виртуальную машину на базе ОС Debian 12 https://www.virtualbox.org/wiki/Downloads
 https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.1.0-amd64-netinst.iso
