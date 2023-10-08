@@ -44,4 +44,5 @@ touch /home/super-{EvdokimovAM}/test_file.txt
 $ rm /home/super-{EvdokimovAM}/test_file.txt
 
 #Bash
+
 ![Desktop Screenshot 2023 10 08 - 17 32 05 31](https://github.com/hipster-x/TOIB-2-2/assets/145153023/5b29e76b-ef4b-4f9f-a972-b08a0330c6d8)
