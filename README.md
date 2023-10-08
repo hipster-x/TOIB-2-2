@@ -15,6 +15,7 @@ https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.1.0-amd64-ne
 # Шаги выполнения 
 1 Шаг ![Desktop Screenshot 2023 10 08 - 14 32 11 24](https://github.com/hipster-x/TOIB-2-2/assets/145153023/6f17d372-9587-4157-81ef-ee650684aa8d)
 2 Шаг
+
 evdokimov@10:~$ su
 Password: 
 root@10:/home/evdokimov# sudo useradd super-{EvdokimovAM}
@@ -26,19 +27,25 @@ root@10:/home/evdokimov# usermod -aG sudo super-{EvdpkimovAM}
 bash: usermod: command not found
 root@10:/home/evdokimov# sudo usermod -aG sudo super-{EvdokimovAM}
 3 Шаг
+
 root@10:/home/evdokimov# sudo groupadd group-{123}
 4 Шаг
+
 root@10:/home/evdokimov# usermod -aG group-{123} super-{EvdokimovAM}
 5 Шаг
+
 root@10:/home/evdokimov# groups super-{EvdokimovAM}
 super-{EvdokimovAM} : super-{EvdokimovAM} sudo group-{123}
 6 Шаг
+
 root@10:/home/evdokimov# useradd user-{EvdokimovAM}
 root@10:/home/evdokimov# usermod -aG group-{123} user-{EvdokimovAM}
 7 Шаг
+
 root@10:/home/evdokimov# chmod 770 /home/super-{EvdokimovAM}
 root@10:/home/evdokimov# chown super-{EvdokimovAM}:group-{123} /home/super-{EvdokimovAM}
 8 Шаг
+
 root@10:/home/evdokimov# su user-{EvdokimovAM}
 touch /home/super-{EvdokimovAM}/test_file.txt
 $ rm /home/super-{EvdokimovAM}/test_file.txt
